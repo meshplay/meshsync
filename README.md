@@ -12,7 +12,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/khulnasoft/meshsync.svg)](https://hub.docker.com/r/khulnasoft/meshsync)
 [![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft/meshsync)](https://goreportcard.com/report/github.com/khulnasoft/meshsync)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/meshplay/meshsync/multi-platform.yml?branch=master)](https://github.com/meshplay/meshsync/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/khulnasoft/meshsync/multi-platform.yml?branch=master)](https://github.com/khulnasoft/meshsync/actions)
 [![Website](https://img.shields.io/website/https/khulnasoft.com/meshplay.svg)](https://khulnasoft.com/meshplay/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/khulnasoft.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=meshplayio)
 [![Slack](https://img.shields.io/badge/Slack-@khulnasoft.svg?logo=slack)](http://slack.khulnasoft.com)

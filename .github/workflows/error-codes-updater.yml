@@ -9,7 +9,7 @@ on:
 jobs:
   Update-error-codes:
     name: Error codes utility
-    if: github.repository == 'meshplay/meshsync'
+    if: github.repository == 'khulnasoft/meshsync'
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@main
