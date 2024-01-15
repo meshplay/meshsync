@@ -99,7 +99,7 @@ Or you may configure your IDE, for example, Visual Studio Code to automatically 
 <a href="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" ><img src="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" width="50%"><a>
 
 ## <a name="contributing-docs">Documentation Contribution Flow</a>
-Please contribute! Layer5 documentation uses Jekyll and GitHub Pages to host docs sites. Learn more about [Layer5's documentation framework](https://docs.google.com/document/d/17guuaxb0xsfutBCzyj2CT6OZiFnMu9w4PzoILXhRXSo/edit?usp=sharing). The process of contributing follows this flow:
+Please contribute! KhulnaSoft documentation uses Jekyll and GitHub Pages to host docs sites. Learn more about [KhulnaSoft's documentation framework](https://docs.google.com/document/d/17guuaxb0xsfutBCzyj2CT6OZiFnMu9w4PzoILXhRXSo/edit?usp=sharing). The process of contributing follows this flow:
 
 1. Create a fork, if you have not already, by following the steps described [here](./CONTRIBUTING-gitflow.md)
 1. In the local copy of your fork, navigate to the docs folder.
@@ -154,7 +154,7 @@ make nats
 
 ### UI Lint Rules
 
-Layer5 uses ES-Lint to maintain code quality & consistency in our UI Code.
+KhulnaSoft uses ES-Lint to maintain code quality & consistency in our UI Code.
 
 # <a name="maintaining"> Reviews</a>
 All contributors are invited to review pull requests. See this short video on [how to review a pull request](https://www.youtube.com/watch?v=isLfo7jfE6g&feature=youtu.be).
@@ -166,10 +166,10 @@ Resources: https://lab.github.com and https://try.github.com/
 
 This repository and site are available as open source under the terms of the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
 
-### About Layer5
+### About KhulnaSoft
 
 **Community First**
-<p>The <a href="https://khulnasoft.com">Layer5</a> community represents the largest collection of service mesh projects and their maintainers in the world.</p>
+<p>The <a href="https://khulnasoft.com">KhulnaSoft</a> community represents the largest collection of service mesh projects and their maintainers in the world.</p>
 
 **Open Source First**
-<p>Our projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services. Our shared commitment to the open source spirit push the Layer5 community and its projects forward.</p>
+<p>Our projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services. Our shared commitment to the open source spirit push the KhulnaSoft community and its projects forward.</p>
