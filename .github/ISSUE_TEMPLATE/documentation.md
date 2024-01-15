@@ -13,7 +13,7 @@ assignees: ''
 
 ---
 **Contributor Resources**
-- [Meshery documentation site](https://docs.meshplay.io/)
-- [Meshery documentation source](https://github.com/meshplay/meshplay/tree/master/docs)
+- [Meshplay documentation site](https://docs.meshplay.io/)
+- [Meshplay documentation source](https://github.com/meshplay/meshplay/tree/master/docs)
 - [Instructions for contributing to documentation](https://github.com/meshplay/meshplay/blob/master/CONTRIBUTING.md#documentation-contribution-flow)
 

@@ -13,7 +13,7 @@ Relevant coding style guidelines are the Go Code Review Comments and the Formatt
 
 # <a name="contributing">General Contribution Flow</a>
 
-In order to contribute to Meshery, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
+In order to contribute to Meshplay, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
 
 ## Issues & Pull Requests
 

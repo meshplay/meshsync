@@ -34,7 +34,7 @@ Steps to reproduce the behavior:
 ### Contributor Resources
 
 The meshplay.io website uses Jekyll and GitHub Pages. Site content is found under the [`master` branch](https://github.com/meshplay/meshplay.io/tree/master).
-- See the [Contributing to Meshery.io Website](https://github.com/khulnasoft/meshplay.io#contributing-to-the-meshplayio-website) section of the readme.md and other [contributing instructions](https://docs.meshplay.io/project/contributing), too.
-- See [Meshery site designs](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshery-UI?node-id=110%3A1) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/qJy1c95qirjgWQODApilR9). 
+- See the [Contributing to Meshplay.io Website](https://github.com/khulnasoft/meshplay.io#contributing-to-the-meshplayio-website) section of the readme.md and other [contributing instructions](https://docs.meshplay.io/project/contributing), too.
+- See [Meshplay site designs](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshplay-UI?node-id=110%3A1) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/qJy1c95qirjgWQODApilR9). 
 - Fill-in a [Community Member Form](https://khulnasoft.com/newcomer) and join the [Community Slack](http://slack.meshplay.io) for access.
 
