@@ -1,0 +1,60 @@
+name: Meshsync CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  golangci-lint:
+    strategy:
+      matrix:
+        platform: [ubuntu-22.04]
+        go-version: [1.21.x]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Setup go
+        uses: actions/setup-go@main
+        with:
+          go-version: ${{ matrix.go-version }}
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v3
+        with:
+          version: latest
+          args:  --timeout=5m
+  codecov:
+    needs: golangci-lint
+    name: Code coverage
+    if: github.repository == 'meshplay/meshsync'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21.x'
+      - name: Run unit tests
+        run: go test --short ./... -race -coverprofile=coverage.txt -covermode=atomic
+      - name: Upload coverage to Codecov
+        if: github.repository == 'meshplay/meshsync'
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.txt
+          flags: unittests
+  build:
+    needs: [golangci-lint, codecov]
+    name: Build
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21.x'
+      - name: Build
+        run: make build
