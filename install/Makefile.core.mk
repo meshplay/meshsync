@@ -1,4 +1,4 @@
-# Copyright Meshery Authors
+# Copyright Meshplay Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 GIT_VERSION	= $(shell git describe --tags `git rev-list --tags --max-count=1`)
 GIT_COMMITSHA = $(shell git rev-list -1 HEAD)
 GIT_STRIPPED_VERSION=$(shell git describe --tags `git rev-list --tags --max-count=1` | cut -c 2-)
-REMOTE_PROVIDER="Meshery"
+REMOTE_PROVIDER="Meshplay"
 LOCAL_PROVIDER="None"
 GOVERSION = 1.19
 GOPATH = $(shell go env GOPATH)
@@ -35,14 +35,14 @@ ADAPTER_URLS := "localhost:10000 localhost:10001 localhost:10002 localhost:10004
 # Providers
 #-----------------------------------------------------------------------------
 REMOTE_PROVIDER_LOCAL="http://localhost:9876"
-MESHERY_CLOUD_DEV="http://localhost:9876"
-MESHERY_CLOUD_PROD="https://meshplay.khulnasoft.com"
-MESHERY_CLOUD_STAGING="https://staging-meshplay.khulnasoft.com"
+MESHPLAY_CLOUD_DEV="http://localhost:9876"
+MESHPLAY_CLOUD_PROD="https://meshplay.khulnasoft.com"
+MESHPLAY_CLOUD_STAGING="https://staging-meshplay.khulnasoft.com"
 
 #-----------------------------------------------------------------------------
 # Server
 #-----------------------------------------------------------------------------
-MESHERY_K8S_SKIP_COMP_GEN ?= TRUE
+MESHPLAY_K8S_SKIP_COMP_GEN ?= TRUE
 APPLICATIONCONFIGPATH="./apps.json"
 
 #-----------------------------------------------------------------------------

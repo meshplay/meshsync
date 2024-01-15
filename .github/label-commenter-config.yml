@@ -34,10 +34,10 @@ labels:
   - name: component/ui
     labeled:
       issue:
-        body: This issue has been labeled with 'component/ui'. 🧰 Here are docs on [Contributing to Meshery UI](https://docs.meshplay.io/project/contributing/contributing-ui). 🎨 Here is the [Meshery UI Figma File](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshery-UI?node-id=4%3A0) File. Lastly, here are docs on [Contributing to Meshery's End-to-End Tests Using Cypress](https://docs.meshplay.io/project/contributing/contributing-cypress).
+        body: This issue has been labeled with 'component/ui'. 🧰 Here are docs on [Contributing to Meshplay UI](https://docs.meshplay.io/project/contributing/contributing-ui). 🎨 Here is the [Meshplay UI Figma File](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshplay-UI?node-id=4%3A0) File. Lastly, here are docs on [Contributing to Meshplay's End-to-End Tests Using Cypress](https://docs.meshplay.io/project/contributing/contributing-cypress).
         action: open
       pr:
-        body: This PR has been labeled with 'component/ui'. 🧰 Here are docs on [Contributing to Meshery UI](https://docs.meshplay.io/project/contributing/contributing-ui). 🎨 Here is the [Meshery UI Figma File](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshery-UI?node-id=4%3A0) File. Lastly, here are docs on [Contributing to Meshery's End-to-End Tests Using Cypress](https://docs.meshplay.io/project/contributing/contributing-cypress)
+        body: This PR has been labeled with 'component/ui'. 🧰 Here are docs on [Contributing to Meshplay UI](https://docs.meshplay.io/project/contributing/contributing-ui). 🎨 Here is the [Meshplay UI Figma File](https://www.figma.com/file/SMP3zxOjZztdOLtgN4dS2W/Meshplay-UI?node-id=4%3A0) File. Lastly, here are docs on [Contributing to Meshplay's End-to-End Tests Using Cypress](https://docs.meshplay.io/project/contributing/contributing-cypress)
         action: open
   - name: component/meshplayctl
     labeled:

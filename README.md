@@ -24,9 +24,9 @@
 
 # MeshSync
 
-MeshSync, an event-driven, continuous discovery and synchronization engine performs the task of ensuring that the state of configuration and status of operation of any supported Meshery platform (e.g. Kubernetes) and environment are known to Meshery Server. When deployed into Kubernetes enviroments, MeshSync runs as a Kubernetes custom controller under the control of Meshery Operator.
+MeshSync, an event-driven, continuous discovery and synchronization engine performs the task of ensuring that the state of configuration and status of operation of any supported Meshplay platform (e.g. Kubernetes) and environment are known to Meshplay Server. When deployed into Kubernetes enviroments, MeshSync runs as a Kubernetes custom controller under the control of Meshplay Operator.
 
-See [MeshSync in Meshery Docs](https://docs.meshplay.io/concepts/architecture/meshsync) for additional information.
+See [MeshSync in Meshplay Docs](https://docs.meshplay.io/concepts/architecture/meshsync) for additional information.
 
 
 <div>&nbsp;</div>

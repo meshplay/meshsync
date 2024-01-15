@@ -15,7 +15,7 @@ newPRWelcomeComment: >
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Thanks for your contribution to the Meshery community! :tada:
+  Thanks for your contribution to the Meshplay community! :tada:
    &nbsp; &#9; &nbsp; &#9; &nbsp; &#9; &nbsp; &#9; [Join the community](http://slack.khulnasoft.com), if you haven't yet and please leave a :star: [star on the project](../stargazers). :smile:
   
   <picture>
