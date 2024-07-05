@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@main
       # token here with write access to meshsync repo
         with:
-          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          token: ${{ secrets.ORG_REPO_TOKEN }}
           ref: 'master'
 
       - name: Setup Go
@@ -44,7 +44,7 @@ jobs:
         with:
           repository: 'meshplay/meshplay'
           # token with write access to meshplay repository
-          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          token: ${{ secrets.ORG_REPO_TOKEN }}
           path: 'meshplay'
           ref: 'master'
 
