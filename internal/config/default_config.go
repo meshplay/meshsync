@@ -13,7 +13,7 @@ var (
 	}
 
 	DefaultPublishingSubject = "meshplay.meshsync.core"
-	
+
 	Pipelines = map[string]PipelineConfigs{
 		GlobalResourceKey: []PipelineConfig{
 			// Core Resources

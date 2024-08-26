@@ -28,7 +28,7 @@ jobs:
   codecov:
     needs: golangci-lint
     name: Code coverage
-    if: github.repository == 'khulnasoft/meshsync'
+    if: github.repository == 'meshplay/meshsync'
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
@@ -40,7 +40,7 @@ jobs:
       - name: Run unit tests
         run: go test --short ./... -race -coverprofile=coverage.txt -covermode=atomic
       - name: Upload coverage to Codecov
-        if: github.repository == 'khulnasoft/meshsync'
+        if: github.repository == 'meshplay/meshsync'
         uses: codecov/codecov-action@v3
         with:
           file: ./coverage.txt

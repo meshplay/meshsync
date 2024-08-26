@@ -19,9 +19,9 @@ firstPRMergeComment: >
    &nbsp; &#9; &nbsp; &#9; &nbsp; &#9; &nbsp; &#9; [Join the community](http://slack.khulnasoft.com), if you haven't yet and please leave a :star: [star on the project](../stargazers). :smile:
   
   <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khulnasoft/meshsync/master/.github/welcome/meshplay_dark.png">
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khulnasoft/meshsync/master/.github/welcome/meshplay_light.png">
-   <img alt="Shows a black logo in light color mode and a white one in dark color mode."   src="https://raw.githubusercontent.com/khulnasoft/meshsync/master/.github/welcome/meshplay_light.png">
+   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meshplay/meshsync/master/.github/welcome/meshplay_dark.png">
+   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meshplay/meshsync/master/.github/welcome/meshplay_light.png">
+   <img alt="Shows a black logo in light color mode and a white one in dark color mode."   src="https://raw.githubusercontent.com/meshplay/meshsync/master/.github/welcome/meshplay_light.png">
   </picture>
 
 #-------------------------------------------------------------------------------

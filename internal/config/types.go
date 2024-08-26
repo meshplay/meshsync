@@ -10,7 +10,7 @@ const (
 	LocalResourceKey          = "local"
 	ListenersKey              = "listeners"
 	LogStreamsKey             = "log-streams"
-	PatternResourceIDLabelKey = "resource.pattern.meshplay.io/id"
+	PatternResourceIDLabelKey = "resource.pattern.meshplay.khulnasoft.com/id"
 
 	BrokerURL     = "broker-url"
 	RequestStream = "request-stream"
@@ -21,20 +21,21 @@ const (
 
 type PipelineConfigs []PipelineConfig
 
-func(p PipelineConfigs) Add(pc PipelineConfig) PipelineConfigs {
+func (p PipelineConfigs) Add(pc PipelineConfig) PipelineConfigs {
 	p = append(p, pc)
 	return p
 }
 
-func(p PipelineConfigs) Delete(pc PipelineConfig) PipelineConfigs {
+func (p PipelineConfigs) Delete(pc PipelineConfig) PipelineConfigs {
 	for index, pipelineConfig := range p {
 		if pipelineConfig.Name == pc.Name {
-			p = slices.Delete[PipelineConfigs](p, index, index + 1)
+			p = slices.Delete[PipelineConfigs](p, index, index+1)
 			break
 		}
 	}
 	return p
 }
+
 type PipelineConfig struct {
 	Name      string   `json:"name" yaml:"name"`
 	PublishTo string   `json:"publish-to" yaml:"publish-to"`
