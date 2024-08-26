@@ -9,13 +9,13 @@ on:
 jobs:
   Update-error-codes:
     name: Error codes utility
-    if: github.repository == 'khulnasoft/meshsync'
+    if: github.repository == 'meshplay/meshsync'
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@main
       # token here with write access to meshsync repo
         with:
-          token: ${{ secrets.ORG_REPO_TOKEN }}
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           ref: 'master'
 
       - name: Setup Go
@@ -44,7 +44,7 @@ jobs:
         with:
           repository: 'meshplay/meshplay'
           # token with write access to meshplay repository
-          token: ${{ secrets.ORG_REPO_TOKEN }}
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           path: 'meshplay'
           ref: 'master'
 

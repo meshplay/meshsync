@@ -12,7 +12,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/khulnasoft/meshsync.svg)](https://hub.docker.com/r/khulnasoft/meshsync)
 [![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft/meshsync)](https://goreportcard.com/report/github.com/khulnasoft/meshsync)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/khulnasoft/meshsync/multi-platform.yml?branch=master)](https://github.com/khulnasoft/meshsync/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/meshplay/meshsync/multi-platform.yml?branch=master)](https://github.com/meshplay/meshsync/actions)
 [![Website](https://img.shields.io/website/https/khulnasoft.com/meshplay.svg)](https://khulnasoft.com/meshplay/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/khulnasoft.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=meshplayio)
 [![Slack](https://img.shields.io/badge/Slack-@khulnasoft.svg?logo=slack)](http://slack.khulnasoft.com)
@@ -26,7 +26,7 @@
 
 MeshSync, an event-driven, continuous discovery and synchronization engine performs the task of ensuring that the state of configuration and status of operation of any supported Meshplay platform (e.g. Kubernetes) and environment are known to Meshplay Server. When deployed into Kubernetes enviroments, MeshSync runs as a Kubernetes custom controller under the control of Meshplay Operator.
 
-See [MeshSync in Meshplay Docs](https://docs.meshplay.io/concepts/architecture/meshsync) for additional information.
+See [MeshSync in Meshplay Docs](https://docs-meshplay.khulnasoft.com/concepts/architecture/meshsync) for additional information.
 
 
 <div>&nbsp;</div>
@@ -50,7 +50,7 @@ Find out more on the <a href="https://khulnasoft.com/community">KhulnaSoft commu
 
 <div>&nbsp;</div>
 
-<a href="https://slack.meshplay.io">
+<a href="https://slack.meshplay.khulnasoft.com">
 
 <picture align="right">
   <source media="(prefers-color-scheme: dark)" srcset=".github\readme\images\slack-dark-128.png"  width="110px" align="right" style="margin-left:10px;margin-top:10px;">
@@ -59,7 +59,7 @@ Find out more on the <a href="https://khulnasoft.com/community">KhulnaSoft commu
 </picture>
 </a>
 
-<a href="https://meshplay.io/community"><img alt="KhulnaSoft Cloud Native Community" src="./.github/readme/images/community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
+<a href="https://meshplay.khulnasoft.com/community"><img alt="KhulnaSoft Cloud Native Community" src="./.github/readme/images/community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
 
 <p>
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://calendar.google.com/calendar/b/1?cid=bGF5ZXI1LmlvX2VoMmFhOWRwZjFnNDBlbHZvYzc2MmpucGhzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">community calendar</a>.<br />
